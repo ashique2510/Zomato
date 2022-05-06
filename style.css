@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+#header-img{
+    position: relative;
+    width: 100vw;
+    height: 600px;
+    background-image:linear-gradient(to right, rgba(0,0,0,0.4),rgba(0,0,0,0.6)),url(./images/Secion\ 1\ bgi3.jpg);
+    background-position: center;
+    background-size: cover; /*image will cover the body */
+    background-repeat: no-repeat;
+    height: 420px; /*re*/
+
+}
+/*header{
+    width: 100vw; 
+    height: 100px; 
+}
+.nav-menu{
+    display: flex; 
+    width: 100vw;
+    height: 60px;
+    justify-content: space-around; 
+}*/
+.zomato{
+    color: #ffff;
+    display: block;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 68px;
+    margin:0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.para1{
+    color: #ffff;
+    /* font-size: 40px; */
+    text-align: center;
+    /* font-weight: 400; */
+    font-family: sans-serif;
+    display: block;
+}
+
+.nav-link{
+    border-bottom: 0px solid black;
+    transition: border-bottom 0.3s;
+    cursor: pointer;
+
+}
+.nav-link:hover{
+    border-bottom: 5px solid white;
+
+}
+.search-box{
+    width: 50vw;
+    height: 56px;
+    background-color: #ffff;
+    border: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding-left: 20px;
+    outline: none; 
+    font-size: 16px;
+}
+.search-btn{
+    background-color: rgb(219, 37, 55);
+    color: #ffff;
+    border: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-weight: 600;
+}
+
+
+
+.card-img-section1{
+    border-radius: 15px;
+}
+
+
+/* Section-2 start */
+
+.section-2 .card-img{
+    height: 250px;
+    border: none;
+    box-shadow: 1px 1px 10px #ccc;
+}
+
+/* Section-2 End */
+
+.footer-icon{
+    font-size: 20px;
+    display: flex;
+    color:black;
+}
+
+.icon-section{
+padding: 6px;
+}
+
